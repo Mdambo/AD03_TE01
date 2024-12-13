@@ -16,7 +16,7 @@ public class ej2 {
         String parAdic = "?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDateTimeCode=false&serverTimezone=UTC";
         String urlConnection = "jdbc:mysql://" + host + ":" + port + "/" + basedatos + parAdic;
         String user = "root";
-        String pwd = "mdt212001";
+        String pwd = "admin";
 
         ds.setJdbcUrl(urlConnection);
         ds.setUsername(user);
